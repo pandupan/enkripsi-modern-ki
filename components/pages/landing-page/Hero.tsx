@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({ heading, message }) => {
             <h2 className='text-2xl sm:text-4xl'>{heading}</h2>
             <p className='py-5 text-3xl font-semibold tracking-[3px] italic'>{message}</p>
             <button className='px-8 py-2 border rounded-lg mt-4'>
-              <Link href='#contact'>Contact Us</Link>
+              <Link href='#projects'>See Project</Link>
             </button>
           </div>
         </div>

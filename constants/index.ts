@@ -7,23 +7,23 @@ export const contacts = [
   {
     id: 'email',
     Icon: MdEmail,
-    value: 'admintechdigi@gmail.com'
+    value: '227006017@student.unsil.ac.id'
   },
   {
     id: 'phone',
     Icon: HiPhone,
-    value: '0822-1987-9696'
+    value: '0858-7098-0885'
   },
   {
     id: 'address',
     Icon: MdLocationPin,
-    value: 'NextSpace Jl.Trunojoyo No.11, Bandung'
+    value: 'Jl Cikoneng, RT/RW 004/003, sukamajukaler, indihiang'
   },
   {
     id: 'instagram',
     Icon: BiLogoInstagramAlt,
     value: '@techdigi.id',
-    link: 'https://www.instagram.com/techdigi.id/'
+    link: 'https://www.instagram.com/pandupan__'
   },
 ];
 

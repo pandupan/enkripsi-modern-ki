@@ -21,27 +21,17 @@ const About = () => {
           <Carousel slideInterval={5000} >
             <img
               alt="..."
-              src="https://i.ibb.co/B4ZBD45/photography.png"
+              src="https://i.ibb.co/027vYpN/woman-standing-working-her-tablet.jpg"
               className='object-contain rounded-md'
             />
             <img
               alt="..."
-              src="https://i.ibb.co/B4ZBD45/photography.png"
+              src="https://i.ibb.co/HFQJ56N/premium-photo-1674582744985-19097212179b.jpg"
               className='object-contain rounded-md'
             />
             <img
               alt="..."
-              src="https://i.ibb.co/B4ZBD45/photography.png"
-              className='object-contain rounded-md'
-            />
-            <img
-              alt="..."
-              src="https://i.ibb.co/B4ZBD45/photography.png"
-              className='object-contain rounded-md'
-            />
-            <img
-              alt="..."
-              src="https://i.ibb.co/B4ZBD45/photography.png"
+              src="https://i.ibb.co/GFKVkzq/premium-photo-1681487746049-c39357159f69.jpg"
               className='object-contain rounded-md'
             />
           </Carousel>
@@ -63,25 +53,21 @@ const About = () => {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                About <span className='font-bold text-blue-500'>Us</span>
+                About <span className='font-bold text-blue-500'>AES Algorithm</span>
               </motion.span>
             </h1>
-            <motion.div
-              variants={itemShow()}
-              initial="initial"
-              whileInView="animate"
-              viewport={{ once: true, amount: 'all' }}
+            <div
               className="max-w-[800px] mx-auto p-6 sm:px-8 sm:py-12 rounded-md bg-white border border-gray-600 mt-4 md:[90px] lg:mt-[120px]"
             >
-              <h1 className="text-xl sm:text-2xl tracking-widest uppercase font-bold">Tech Digi Indonesia.</h1>
+              <h1 className="text-xl sm:text-2xl tracking-widest uppercase font-bold"> Advanced Encryption Standard.</h1>
               <p className="sm:text-lg max-w-2xl mt-4 mb-6 text-left sm:text-justify">
-                <span className="text-colorfull-blue font-semibold">Techdigi.id</span>  bergerak dibidang jasa berbasis teknologi diantaran pembuatan<span className="text-blue-500 font-semibold">  Creative Content, Branding Marketing, Web developer, Mobile Apps, Fotography, serta Konsulatasi digital.</span> perusahaan yang memiliki visioner yang terfokus pada pengembangan bisnis terintegrasi berbasis teknologi dan informasi
+                <span className="text-colorfull-blue font-semibold">AES</span>  merupakan  algoritma kriptografi yang digunakan secara luas untuk melakukan enkripsi dan dekripsi data.<span className="text-blue-500 font-semibold">  Dengan mengambil blok data dan mengubahnya menjadi blok data terenkripsi menggunakan kunci tertentu. </span>AES memiliki beberapa langkah operasi yang disebut SubBytes, ShiftRows, MixColumns, dan AddRoundKey. Proses enkripsi dan dekripsi melibatkan pengulangan langkah-langkah ini sejumlah kali, dengan jumlah pengulangan tergantung pada panjang kunci yang digunakan.
               </p>
               <Disclosure>              
                 {({open}) => (
                   <>
                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-base font-medium text-gray-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75">
-                      <span>Pengembangan sistem bisnis berbasis teknologi dan informasi.</span>
+                      <span>Keamanan Tinggi.</span>
                       <ChevronUpIcon
                         className={`${
                           open ? 'rotate-180 transform' : ''
@@ -89,7 +75,7 @@ const About = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-500">
-                    Pengembangan sistem bisnis berbasis teknologi dan informasi merupakan suatu proses yang bertujuan untuk menciptakan, meningkatkan, atau mengintegrasikan teknologi dan informasi ke dalam berbagai aspek bisnis. Hal ini dilakukan dengan tujuan untuk meningkatkan efisiensi operasional, mengoptimalkan kinerja bisnis, dan memberikan nilai tambah bagi pelanggan dan pemangku kepentingan lainnya. 
+                    AES telah terbukti menjadi algoritma kriptografi yang sangat aman. Berdasarkan desain dan analisis yang ketat, AES memberikan tingkat keamanan yang tinggi terhadap berbagai serangan kriptografi yang diketahui saat ini. Ini termasuk serangan brute-force (mencoba semua kemungkinan kunci secara bergantian), serangan differensial, dan serangan linier. Dengan kata lain, bahkan dengan komputasi canggih, memecahkan enkripsi AES tanpa kunci yang benar menjadi sangat sulit.
                     </Disclosure.Panel>
                   </>
                 )}
@@ -98,7 +84,7 @@ const About = () => {
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 mb-2 text-left text-base font-medium text-gray-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75">
-                      <span>Berafiliasi dengan Owner bisnis dalam pembangunan UMKM</span>
+                      <span>Efisiensi</span>
                       <ChevronUpIcon
                         className={`${
                           open ? 'rotate-180 transform' : ''
@@ -106,7 +92,7 @@ const About = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-500">
-                      Berafiliasi dengan pemilik bisnis dalam pembangunan Usaha Mikro, Kecil, dan Menengah (UMKM) merupakan langkah strategis yang dapat memberikan dampak positif bagi perkembangan UMKM. Melalui afiliasi ini, UMKM dapat memanfaatkan pengetahuan, pengalaman, dan sumber daya yang dimiliki oleh pemilik bisnis untuk meningkatkan kualitas dan daya saing usaha mereka. Pemilik bisnis dapat memberikan mentorship, pelatihan, dan dukungan keuangan kepada UMKM untuk membantu mereka mengatasi tantangan dalam mengelola bisnis. Selain itu, akses ke jaringan dan pelanggan yang dimiliki oleh pemilik bisnis dapat membantu UMKM memperluas pangsa pasar dan meningkatkan visibilitas brand mereka.
+                    Meskipun AES menawarkan tingkat keamanan yang tinggi, itu juga dirancang untuk beroperasi secara efisien pada berbagai platform, termasuk perangkat keras terbatas seperti perangkat seluler dan mikrokontroler. Algoritma ini memiliki implementasi yang relatif sederhana dan dapat dijalankan dengan cepat, memungkinkan enkripsi dan dekripsi data dalam waktu yang singkat, bahkan pada perangkat dengan daya terbatas.
                     </Disclosure.Panel>
                   </>
                 )}
@@ -115,7 +101,7 @@ const About = () => {
                 {({open}) => (
                   <>
                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-base font-medium text-gray-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75">
-                      <span>Pengembangan kualitas SDM dibidang teknologi dan bisnis</span>
+                      <span>Sesuai Standar Internasional</span>
                       <ChevronUpIcon
                         className={`${
                           open ? 'rotate-180 transform' : ''
@@ -123,12 +109,12 @@ const About = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-500">
-                    Pengembangan kualitas Sumber Daya Manusia (SDM) di bidang teknologi dan bisnis merupakan faktor kunci dalam menciptakan tenaga kerja yang kompeten dan siap menghadapi tuntutan era digital dan pasar global yang dinamis. Dalam dunia yang semakin terintegrasi dengan teknologi, investasi pada pengembangan SDM menjadi sangat penting bagi perusahaan maupun individu.
+                    AES diadopsi secara luas sebagai standar kriptografi oleh pemerintah, perusahaan, dan organisasi di seluruh dunia. Hal ini memberikan jaminan bahwa data yang dienkripsi dengan AES dapat diakses dan diproses oleh berbagai sistem dan perangkat yang kompatibel dengan standar ini. Keberadaan standar global ini membantu memastikan interoperabilitas dan keamanan data di seluruh dunia.
                     </Disclosure.Panel>
                   </>
                 )}
               </Disclosure>
-            </motion.div>
+            </div>
           </div>
         </div>
       </div>

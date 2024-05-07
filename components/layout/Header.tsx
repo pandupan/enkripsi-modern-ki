@@ -52,12 +52,11 @@ const Header = () => {
                 className="sm:ml-4 sm:p-4 mr-2 ml-1 p-2 w-[50px] h-[35px] sm:w-auto sm:h-auto "
               />
               <div className='ml-2 sm:ml-8 text-sm sm:tracking-[2.5px]' style={{color:`${textColor}`}}>
-                <h2 className='font-bold'>TECH DIGI</h2>       
-                <h2 className='font-bold'>INDONESIA</h2>       
+                <h2 className='font-bold'>AES Algorithm</h2>            
               </div>
             </div>
             <div className='ml-2 sm:ml-4 text-base sm:tracking-[1.5px]' style={{color:`${textColor}`}}>
-              <h2 className='font-semibold italic '>&quot;Wujudkan Inovasi Digitalmu!&quot;</h2>             
+              <h2 className='font-semibold italic '>&quot;Wujudkan Keamanan Digital!&quot;</h2>             
             </div>
           </div>
         </Link>
@@ -66,53 +65,13 @@ const Header = () => {
 
             <Popover>
                 <Popover.Button>
-                  <li className='flex justify-center items-center p-4 hover:text-blue-500 hover:border-b-2 hover:border-blue-500 transform hover:scale-110 hover:mt-2 hover:font-bold '>
-                    Product
-                    <RiArrowDropDownLine size={30}/>
-                  </li>
+                  <Link href='#'>
+                    <li className='flex justify-center items-center p-4 hover:text-blue-500 hover:border-b-2 hover:border-blue-500 transform hover:scale-110 hover:mt-2 hover:font-bold '>
+                      Home
+                    </li>
+                  </Link>
                 </Popover.Button>
 
-                <Popover.Panel className="absolute top-[95px] z-10 w-[200px] h-auto border border-gray-500 text-black bg-white rounded-md ">
-                  <div className="flex flex-col gap-4 py-2">
-                    <div className='flex items-center border-b-2 border-gray-300'>
-                      <BsBrowserEdge size={20} className="m-2"/>
-                      <a href="#" className='p-2 text-gray-800'>Web Developer</a>
-                    </div>
-                    <div className='flex items-center border-b-2 border-gray-300'>
-                      <SiBrandfolder size={20} className="m-2"/>
-                      <a href="#" className='p-2 text-gray-800'>Brand Marketing</a>
-                    </div>
-                    <div className='flex items-center border-b-2'>
-                      <FaNetworkWired size={20} className="m-2"/>
-                      <a href="#" className='p-2 text-gray-800'>Technology and Networking</a>
-                    </div>
-                  </div>
-                </Popover.Panel>
-              </Popover>
-
-              <Popover>
-                <Popover.Button>
-                  <li className='flex justify-center items-center p-4 hover:text-blue-500 hover:border-b-2 hover:border-blue-500 transform hover:scale-110 hover:mt-2 hover:font-bold '>
-                    <Link href='#'>Process</Link>
-                    <RiArrowDropDownLine size={30}/>
-                  </li> 
-                </Popover.Button>
-                <Popover.Panel className="absolute top-[95px] z-10 w-[200px] h-auto border border-gray-500 text-black bg-white rounded-md ">
-                  <div className="flex flex-col gap-4 py-2">
-                    <div className='flex items-center border-b-2 border-gray-300'>
-                      <TbTargetArrow size={20} className="m-2"/>
-                      <a href="#" className='p-2 text-gray-800'>Making Project</a>
-                    </div>
-                    <div className='flex items-center border-b-2 border-gray-300'>
-                      <HiMiniTrophy size={20} className="m-2"/>
-                      <a href="#" className='p-2 text-gray-800'>Management Project</a>
-                    </div>
-                    <div className='flex items-center border-b-2'>
-                      <SlCalender size={20} className="m-2"/>
-                      <a href="#" className='p-2 text-gray-800'>Monitoring Project</a>
-                    </div>
-                  </div>
-                </Popover.Panel>
               </Popover>
 
 
@@ -139,10 +98,7 @@ const Header = () => {
         }>
           <ul>
             <li className='p-4 text-4xl hover:text-blue-500 hover:border-b-2 hover:border-blue-500 transform hover:scale-110 hover:mt-2 hover:font-bold'>
-              <Link href='#services'>Product</Link>
-            </li>
-            <li className='p-4 text-4xl hover:text-blue-500 hover:border-b-2 hover:border-blue-500 transform hover:scale-110 hover:mt-2 hover:font-bold'>
-              <Link href='#process'>Process</Link>
+              <Link href='#'>Home</Link>
             </li>
             <li className='p-4 text-4xl hover:text-blue-500 hover:border-b-2 hover:border-blue-500 transform hover:scale-110 hover:mt-2 hover:font-bold'>
               <Link href='#projects'>Project</Link>

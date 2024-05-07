@@ -1,4 +1,4 @@
-export const itemShow = (duration: number = .8, usingScale = true) => ({
+export const itemShow = (duration: number = .6, usingScale = true) => ({
   initial: {
     opacity: 0,
     scale: usingScale ? .8 : 1,

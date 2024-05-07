@@ -62,7 +62,7 @@ function Contact() {
     const { name, email, subject, message } = formData;
     const messageText = `Name: ${name}\nEmail: ${email}\n\nMessage: ${message}`;
 
-    const mailtoLink = `mailto:admintechdigi@gmail.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:227006017@student.unsil.ac.id?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(messageText)}`;
 
@@ -125,7 +125,7 @@ function Contact() {
 
     const messageText = `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}`;
 
-    const whatsappLink = `https://wa.me/+6282219879696?text=${encodeURIComponent(messageText)}`;
+    const whatsappLink = `https://wa.me/+6285870980885?text=${encodeURIComponent(messageText)}`;
 
     window.open(whatsappLink, '_blank');
 
@@ -185,18 +185,18 @@ function Contact() {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                Are
+                Have
               </motion.span>
               <motion.span
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
               >
-                <span className='font-bold text-blue-500'>You Ready?</span>
+                <span className='font-bold text-blue-500'>Any Question?</span>
               </motion.span>
             </h1>
               <h4 className="text-lg text-blue-500">Get In Touch</h4>
-              <h2 className="text-4xl sm:text-5xl">Let&apos;s Work Together!</h2>
+              <h2 className="text-4xl sm:text-5xl">Let&apos;s Encrypt Together!</h2>
               <motion.div
                 variants={containerShow}
                 initial="initial"
