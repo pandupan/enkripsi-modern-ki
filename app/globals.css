@@ -16,18 +16,22 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+html{
+  scroll-behavior: smooth;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.hero-img {
+  background-image: url("https://i.ibb.co/JFMzzLK/hero-section1.png");
+  background-position: 90% center; /* Mengambil bagian ujung kanan gambar */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Jika Anda ingin memastikan bahwa gambar tidak diambil bagian ujung kirinya pada tampilan mobile, Anda bisa menambahkan media query seperti ini: */
+@media (max-width: 640px) {
+  .hero-img {
+    background-position:75%; 
   }
 }
+
